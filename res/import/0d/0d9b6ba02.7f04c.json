@@ -1,0 +1,108 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pulled-diamond-0",
+      "texture": "137wk2CHJO6b+ETdL2W/fr",
+      "rect": [
+        1002,
+        32,
+        32,
+        22
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        32,
+        22
+      ],
+      "rotated": 1
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Drill",
+      "data": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Drill",
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "70AfrMEONG4b1aCAj2nmgy"
+          }
+        },
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 1
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": 0.1,
+              "y": -9.3
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -0.1,
+              "y": -9.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 15.2,
+              "y": 3
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 8,
+              "y": 8.3
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -8.5,
+              "y": 8.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -14.5,
+              "y": 3.6
+            }
+          ]
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "3cmCkSYp5O+q6Wv7jXwtBA"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 32,
+        "height": 22
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 304,
+        "y": -92
+      },
+      "groupIndex": 6
+    }
+  ]
+]
