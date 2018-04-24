@@ -1,0 +1,299 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Gem",
+      "data": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Gem",
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "b5GEfhdC1D2Ja3Hj1/6uuj"
+          }
+        },
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 1
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": -19.5,
+              "y": 42
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -32.5,
+              "y": 35
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -50.5,
+              "y": 17
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -50.5,
+              "y": 15
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -58.5,
+              "y": 9
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -58.5,
+              "y": 4
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -51.5,
+              "y": -3
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -49.5,
+              "y": -3
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -43.5,
+              "y": -9
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -41.5,
+              "y": -9
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -27.5,
+              "y": -23
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -27.5,
+              "y": -25
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -18.5,
+              "y": -33
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -18.5,
+              "y": -35
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -13.5,
+              "y": -40
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -8.5,
+              "y": -42
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 3.5,
+              "y": -42
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 14.5,
+              "y": -29
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 16.5,
+              "y": -29
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 18.5,
+              "y": -26
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 23.5,
+              "y": -24
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 25.5,
+              "y": -21
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 27.5,
+              "y": -21
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 35.5,
+              "y": -14
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 39.5,
+              "y": -13
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 43.5,
+              "y": -9
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 53.5,
+              "y": -4
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 58.5,
+              "y": 3
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 58.5,
+              "y": 11
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 55.5,
+              "y": 12
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 54.5,
+              "y": 10
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 52.5,
+              "y": 10
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 47.5,
+              "y": 15
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 47.5,
+              "y": 17
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 42.5,
+              "y": 21
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 42.5,
+              "y": 23
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 37.5,
+              "y": 27
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 37.5,
+              "y": 29
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 27.5,
+              "y": 39
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 20.5,
+              "y": 42
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -5.5,
+              "y": 42
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -8.5,
+              "y": 40
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -12.5,
+              "y": 40
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -13.5,
+              "y": 42
+            }
+          ]
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "94HhzSGYlMWLCTRNZ7euWO"
+        },
+        "fileId": "7fRxNc3Z1LyYVSTuzl/eLO"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 117,
+        "height": 84
+      },
+      "_scaleX": 0.3,
+      "_scaleY": 0.3,
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 336,
+        "y": -53
+      },
+      "groupIndex": 3
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "gem",
+      "texture": "cbutSNmlxAQLlROarC4RAL",
+      "rect": [
+        0,
+        0,
+        117,
+        84
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        117,
+        84
+      ]
+    }
+  }
+]

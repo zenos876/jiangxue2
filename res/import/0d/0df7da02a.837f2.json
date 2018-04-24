@@ -1,0 +1,294 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "stone-2",
+      "texture": "f0Unr6HbBAo6qEziYm7dw4",
+      "rect": [
+        0,
+        0,
+        80,
+        49
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        80,
+        49
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Stone-2",
+      "data": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Stone-2",
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "4e5cLoAnRKH5OMeoikV86M"
+          }
+        },
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 1
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": -10,
+              "y": 24.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -37,
+              "y": -1.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -40,
+              "y": -9.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -38,
+              "y": -19.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -33,
+              "y": -18.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -27,
+              "y": -1.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -20,
+              "y": 0.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -18,
+              "y": 3.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -13,
+              "y": 5.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -11,
+              "y": 8.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -9,
+              "y": 8.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -2,
+              "y": 14.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 13,
+              "y": 13.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 19,
+              "y": 16.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 23,
+              "y": 16.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 26,
+              "y": 14.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 28,
+              "y": 2.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 7,
+              "y": -12.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 2,
+              "y": -12.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -1,
+              "y": -9.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -8,
+              "y": -6.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -20,
+              "y": -4.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -24,
+              "y": -6.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -23,
+              "y": -8.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -12,
+              "y": -11.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -9,
+              "y": -14.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -29,
+              "y": -17.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -33,
+              "y": -21.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -32,
+              "y": -24.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 10,
+              "y": -20.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 14,
+              "y": -18.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 15,
+              "y": -15.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 18,
+              "y": -12.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 20,
+              "y": -12.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 24,
+              "y": -7.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 38,
+              "y": 0.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 40,
+              "y": 4.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 39,
+              "y": 14.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 37,
+              "y": 18.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 31,
+              "y": 23.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 24,
+              "y": 24.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 6,
+              "y": 21.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -1,
+              "y": 24.5
+            }
+          ]
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "93Aa/GpthIOp+KXiM1Lm/G"
+        },
+        "fileId": "a59naWrOhOma9UYoHUn4Id"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 80,
+        "height": 49
+      },
+      "_scaleX": 0.4,
+      "_scaleY": 0.4,
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 242.6,
+        "y": -60.5
+      },
+      "groupIndex": 3
+    }
+  ]
+]
