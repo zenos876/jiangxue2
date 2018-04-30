@@ -451,8 +451,8 @@ window._CCSettings = {
     "md5AssetsMap": {
         "04/04defaae1.json": "615ef",
         "0f/0f0998c25.json": "1ffa7",
-        "0f/0f4cb3be0.json": "53001",
-        "b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1/word.ttf": "2ce79",
+        "0f/0f4cb3be0.json": "930c7",
+        "b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1/word.ttf": "2ebf4",
         "assets/res/audio/Bgsound1.mp3": "75f83",
         "assets/res/audio/Bgsound2.mp3": "1142a",
         "assets/res/audio/Bgsound3.mp3": "470a5",

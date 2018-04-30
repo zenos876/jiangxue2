@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shouhui",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.2,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            284,
+            -74
+          ]
+        },
+        {
+          "frame": 0.2,
+          "value": [
+            505,
+            -74
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}
