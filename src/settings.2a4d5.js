@@ -349,8 +349,6 @@ window._CCSettings = {
         "cc.AudioClip"
     ],
     launchScene: "db://assets/Scene/Index.fire",
-    gamesellectscene:"db://assets/Scene/GameSellect.fire",
-    gamesence:"db://assets/Scene/Game.fire",
     scenes: [
         {
             url: "db://assets/Scene/Index.fire",
@@ -453,7 +451,7 @@ window._CCSettings = {
     "md5AssetsMap": {
         "04/04defaae1.json": "615ef",
         "0f/0f0998c25.json": "1ffa7",
-        "0f/0f4cb3be0.json": "930c7",
+        "0f/0f4cb3be0.json": "58654",
         "b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1/word.ttf": "2ebf4",
         "assets/res/audio/Bgsound1.mp3": "75f83",
         "assets/res/audio/Bgsound2.mp3": "1142a",

@@ -49,7 +49,6 @@ cc.Class({
         //页面初始化
         this.LRBtninit();
 
-        cc.director.preloadScene('Index');
         cc.director.preloadScene('Game');
 
     },

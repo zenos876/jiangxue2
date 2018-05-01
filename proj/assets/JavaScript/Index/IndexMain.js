@@ -50,7 +50,6 @@ cc.Class({
         this.BGM_ID = cc.audioEngine.play(this.BGM,true);
 
         //预加载场景2
-        cc.director.preloadScene('Game');
         cc.director.preloadScene('GameSellect');
     },
 

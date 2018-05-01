@@ -115,6 +115,8 @@
                 packedAssets: settings.packedAssets,
                 md5AssetsMap: settings.md5AssetsMap
             });
+			
+			
             var gamesellectscene = settings.gamesellectscene;
             var gamesence = settings.gamesence;
 			cc.loader.loadResDir('import/b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1',function () {
@@ -182,10 +184,12 @@
                     }
                 );
             });*/
-
+			
+	
             /*var launchScene = settings.launchScene;
+
             // load scene
-            cc.director.loadScene(launchScene,
+            cc.director.loadScene(launchScene, null,
                 function () {
                     if (cc.sys.isBrowser) {
                         // show canvas
@@ -203,7 +207,7 @@
 
         // jsList
         var jsList = settings.jsList;
-        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.28ade.js';
+        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.3ad41.js';
         if (jsList) {
             jsList = jsList.map(function (x) { return 'src/' + x; });
             jsList.push(bundledScript);
@@ -236,7 +240,7 @@
     }
 
     if (window.jsb) {
-        require('src/settings.52b10.js');
+        require('src/settings.2a4d5.js');
         require('src/jsb_polyfill.js');
         boot();
     }
