@@ -119,7 +119,7 @@
 			
             var gamesellectscene = settings.gamesellectscene;
             var gamesence = settings.gamesence;
-			cc.loader.loadResDir('import/b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1',function () {
+			/*cc.loader.loadResDir('import/b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1',function () {
                     console.log('Success to loadResDir' );});
 					
 			cc.loader.loadRes('raw-assets',function () {
@@ -140,9 +140,9 @@
                             console.log('Success to load scene: ' + launchScene);
                         }
                     );
-					});
-			/*cc.loader.loadResDir('import/b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1',function () {
-                    console.log('Success to preload scene: ' + gamesence);});
+					});*/
+			cc.loader.loadResDir('import/b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1',function () {
+                    console.log('Success to loadResDir' );});
             cc.director.preloadScene(gamesellectscene,function () {
                 console.log('Success to preload scene: ' + gamesellectscene);
                 cc.director.preloadScene(gamesence,function () {
@@ -164,7 +164,7 @@
                         }
                     );
                 });
-            });*/
+            });
             /*cc.director.preloadScene(gamesence,function () {
                 console.log('Success to preload scene: ' + gamesence);
                 var launchScene = settings.launchScene;
