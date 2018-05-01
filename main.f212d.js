@@ -115,11 +115,53 @@
                 packedAssets: settings.packedAssets,
                 md5AssetsMap: settings.md5AssetsMap
             });
+            var gamesellectscene = settings.gamesellectscene;
+            var gamesence = settings.gamesence;
+            cc.director.preloadScene(gamesellectscene,function () {
+                console.log('Success to preload scene: ' + gamesellectscene);
+                cc.director.preloadScene(gamesence,function () {
+                    console.log('Success to preload scene: ' + gamesence);
+                    var launchScene = settings.launchScene;
+                    // load scene
+                    cc.director.loadScene(launchScene,
+                        function () {
+                            if (cc.sys.isBrowser) {
+                                // show canvas
+                                canvas.style.visibility = '';
+                                var div = document.getElementById('GameDiv');
+                                if (div) {
+                                    div.style.backgroundImage = '';
+                                }
+                            }
+                            cc.loader.onProgress = null;
+                            console.log('Success to load scene: ' + launchScene);
+                        }
+                    );
+                });
+            });
+            /*cc.director.preloadScene(gamesence,function () {
+                console.log('Success to preload scene: ' + gamesence);
+                var launchScene = settings.launchScene;
+                // load scene
+                cc.director.loadScene(launchScene,
+                    function () {
+                        if (cc.sys.isBrowser) {
+                            // show canvas
+                            canvas.style.visibility = '';
+                            var div = document.getElementById('GameDiv');
+                            if (div) {
+                                div.style.backgroundImage = '';
+                            }
+                        }
+                        cc.loader.onProgress = null;
+                        console.log('Success to load scene: ' + launchScene);
+                    }
+                );
+            });*/
 
-            var launchScene = settings.launchScene;
-
+            /*var launchScene = settings.launchScene;
             // load scene
-            cc.director.loadScene(launchScene, null,
+            cc.director.loadScene(launchScene,
                 function () {
                     if (cc.sys.isBrowser) {
                         // show canvas
@@ -132,7 +174,7 @@
                     cc.loader.onProgress = null;
                     console.log('Success to load scene: ' + launchScene);
                 }
-            );
+            );*/
         };
 
         // jsList
