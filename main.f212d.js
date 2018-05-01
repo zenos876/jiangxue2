@@ -117,6 +117,7 @@
             });
             var gamesellectscene = settings.gamesellectscene;
             var gamesence = settings.gamesence;
+			cc.loader.loadResDir('.res/import/b7/b79254a8-6442-48ce-9a5d-1d8a33f2e5b1');
             cc.director.preloadScene(gamesellectscene,function () {
                 console.log('Success to preload scene: ' + gamesellectscene);
                 cc.director.preloadScene(gamesence,function () {
