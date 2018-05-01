@@ -122,6 +122,8 @@
 					
 			cc.loader.loadRes('raw-assets',function () {
                     console.log('Success to load raw-assets' );
+					 var launchScene = settings.launchScene;
+                    // load scene
 					cc.director.loadScene(launchScene,
                         function () {
                             if (cc.sys.isBrowser) {
