@@ -349,6 +349,8 @@ window._CCSettings = {
         "cc.AudioClip"
     ],
     launchScene: "db://assets/Scene/Index.fire",
+	gamesellectscene:"db://assets/Scene/GameSellect.fire",
+    gamesence:"db://assets/Scene/Game.fire",
     scenes: [
         {
             url: "db://assets/Scene/Index.fire",
